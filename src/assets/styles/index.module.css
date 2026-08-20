@@ -4,6 +4,7 @@ html,
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -116,7 +117,7 @@ button {
 }
 
 .top {
-  margin-top: 191px;
+  padding: 191px 0 230px;
 }
 
 .homeBox {
@@ -132,21 +133,21 @@ button {
 
 .homeBoxVector {
   position: absolute;
-  top: -40%;
-  right: -10%;
   width: 517.142px;
   height: 273.029px;
   transform: rotate(-178.318deg);
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.2);
   filter: blur(100px);
+  top: -40%;
+  right: -10%;
 }
 
 .homeTitle {
   color: #fff;
-  text-align: center;
   font-family: "Syne", sans-serif;
-  font-size: 72px;
   font-weight: 700;
+  text-align: center;
+  font-size: 72px;
   width: 891px;
   margin-bottom: 93px;
 }
@@ -169,16 +170,274 @@ button {
   transition: all 0.4s;
 }
 .homeBtn:hover {
-  background-color: #fff;
+  background-color: transparent;
   color: #ff9142;
+  box-shadow: 0 0 15px #ff9142;
 }
 .homeBtn:hover .homeBtnArrow {
   transform: translateX(100%);
-  fill: #ff9142;
   transition: all 0.4s;
 }
 .homeBtn .homeBtnArrow {
   transform: translateX(0);
-  fill: #fff;
   transition: all 0.4s;
+}
+
+.about {
+  padding: 100px 0 290px;
+}
+
+.aboutInner {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+
+.aboutInnerContent {
+  position: relative;
+}
+
+.aboutInnerContentVector {
+  position: absolute;
+  width: 517.142px;
+  height: 273.029px;
+  transform: rotate(-178.318deg);
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(100px);
+  top: -25%;
+  left: -45%;
+}
+
+.aboutInnerContentTitle {
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  width: 516px;
+  margin-bottom: 26px;
+}
+
+.aboutInnerContentSub {
+  font-size: 18px;
+  line-height: 154%;
+  letter-spacing: 1px;
+  margin-bottom: 76px;
+}
+
+.aboutInnerContentBtn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #fff;
+  padding: 25px 33px 25px 40px;
+  border-radius: 32px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.625px;
+  text-transform: uppercase;
+  background-color: #ff9142;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.4s;
+}
+.aboutInnerContentBtn:hover {
+  background-color: transparent;
+  color: #ff9142;
+  box-shadow: 0 0 15px #ff9142;
+}
+.aboutInnerContentBtn:hover .homeBtnArrow {
+  transform: translateX(100%);
+  transition: all 0.4s;
+}
+.aboutInnerContentBtn .homeBtnArrow {
+  transform: translateX(0);
+  transition: all 0.4s;
+}
+.aboutInnerContentBtn {
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  padding: 20px 50px;
+}
+
+.aboutInnerUser {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  border-radius: 30px;
+}
+.aboutInnerUser::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -20px;
+  width: 110px;
+  height: 34px;
+  background: transparent;
+  border: 1px solid #ff9142;
+  border-radius: 30px;
+  box-shadow: 0 0 5px #ff9142;
+}
+.aboutInnerUser::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  bottom: 48px;
+  width: 55px;
+  height: 178px;
+  background: transparent;
+  border: 1px solid #ff9142;
+  border-radius: 30px;
+  box-shadow: 0 0 5px #ff9142;
+}
+
+.aboutInnerUserTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 54px;
+  width: 454px;
+  height: 506px;
+}
+
+.aboutInnerUserImg {
+  width: 454px;
+  height: 506px;
+}
+
+.projects {
+  padding: 0 0 166px;
+}
+
+.projectsInnerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectsInnerContentTitle {
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  position: relative;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.projectsInnerContentTitleVector {
+  position: absolute;
+  width: 517.142px;
+  height: 273.029px;
+  transform: rotate(-178.318deg);
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(100px);
+  top: -55%;
+  right: -4%;
+  width: 341px;
+  height: 180px;
+  filter: blur(100px);
+}
+
+.projectsInnerContentBtn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #fff;
+  padding: 25px 33px 25px 40px;
+  border-radius: 32px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.625px;
+  text-transform: uppercase;
+  background-color: #ff9142;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.4s;
+}
+.projectsInnerContentBtn:hover {
+  background-color: transparent;
+  color: #ff9142;
+  box-shadow: 0 0 15px #ff9142;
+}
+.projectsInnerContentBtn:hover .homeBtnArrow {
+  transform: translateX(100%);
+  transition: all 0.4s;
+}
+.projectsInnerContentBtn .homeBtnArrow {
+  transform: translateX(0);
+  transition: all 0.4s;
+}
+.projectsInnerContentBtn {
+  display: inline-flex;
+  background-color: transparent;
+  border-color: #ff9142;
+  margin-bottom: 79px;
+}
+
+.projectsInnerGroupList {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 94px 38px;
+}
+
+.projectsInnerGroupListItem {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 32px;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+.projectsInnerGroupListItem:hover {
+  box-shadow: 0 0 20px #606060;
+  transition: all 0.4s;
+}
+
+.projectsInnerGroupListItemImg {
+  border-radius: 19px;
+}
+
+.projectsInnerGroupListItemTitle {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.projectsInnerGroupListItemTitleSpan {
+  width: 48px;
+  height: 1px;
+  background: #ff9142;
+}
+
+.projectsInnerGroupListItemEnumItem,
+.projectsInnerGroupListItemEnumItemWork {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.projectsInnerGroupListItemEnumItemName {
+  color: #606060;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+}
+
+.projectsInnerGroupListItemEnumItemAns {
+  color: #fff;
+  line-height: 22px;
+  letter-spacing: 0.25px;
 }/*# sourceMappingURL=index.module.css.map */

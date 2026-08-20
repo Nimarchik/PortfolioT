@@ -5,12 +5,14 @@ $fontRubik: "Rubik", sans-serif;
 $white: #fff;
 $orange: #ff9142;
 $colorFonts: #949494;
+$borderRadius: 30px;
 
 body,
 html,
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -104,20 +106,34 @@ button {
   transition: all 0.4s;
 
   &:hover {
-    background-color: $white;
+    background-color: transparent;
     color: $orange;
+    box-shadow: 0 0 15px $orange;
 
     .homeBtnArrow {
       transform: translateX(100%);
-      fill: $orange;
       transition: all 0.4s;
     }
   }
   .homeBtnArrow {
     transform: translateX(0);
-    fill: $white;
     transition: all 0.4s;
   }
+}
+
+@mixin sectionTitle {
+  color: $white;
+  font-family: $fontSyne;
+  font-weight: 700;
+}
+
+@mixin vector {
+  position: absolute;
+  width: 517.142px;
+  height: 273.029px;
+  transform: rotate(-178.318deg);
+  background: rgba(255, 255, 255, 0.20);
+  filter: blur(100px);
 }
 
 @import "../../widgets/header/styles/Header.module";
