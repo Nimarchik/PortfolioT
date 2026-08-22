@@ -232,3 +232,42 @@
   line-height: 22px;
   letter-spacing: 0.25px;
 }
+
+// ============ Section TESTIMANIAL ============
+
+.testimonial {
+  padding: 0 0 119px;
+}
+
+.monialInnerTop {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 44px;
+}
+
+.monialInnerTopVector {
+  @include vector;
+  top: -85%;
+  left: -45%;
+}
+
+.monialInnerTopTitle {
+  @include sectionTitle;
+  font-size: 64px;
+}
+
+.monialInnerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 879px;
+}
+
+.monialInnerContentInitials {
+  color: $white;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: $fontSyne;
+}

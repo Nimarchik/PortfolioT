@@ -5,6 +5,7 @@ import img from './images/projectImages/Img.jpg'
 import img1 from './images/projectImages/Img1.jpg'
 import img2 from './images/projectImages/Img2.jpg'
 import img3 from './images/projectImages/Img3.jpg'
+import monial from './images/mou.svg'
 
 const Home = () => {
   return (
@@ -35,7 +36,9 @@ const Home = () => {
             <div className={style.aboutInnerContent}>
               <div className={style.aboutInnerContentVector}></div>
               <h2 className={style.aboutInnerContentTitle}>Let’s get know about me closer</h2>
-              <p className={style.aboutInnerContentSub}>Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.</p>
+              <p className={style.aboutInnerContentSub}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolores. Et veritatis ad maiores, ea sequi sit blanditiis ab fugit quae. Dolore, accusantium voluptatum voluptates aut cum debitis sed cupiditate!
+              </p>
               <Link className={style.aboutInnerContentBtn}>Discover More About Me</Link>
             </div>
             <div className={style.aboutInnerUser}>
@@ -161,6 +164,28 @@ const Home = () => {
               </ul>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className={style.testimonial}>
+        <div className={style.container}>
+          <div className={style.monialInner}>
+            <div className={style.monialInnerTop}>
+              <div className={style.monialInnerTopVector}></div>
+              <h5 className={style.monialInnerTopTitle}>
+                Testimonial
+              </h5>
+              <img src={monial} alt="Testimonial" className={style.monialInnerTopImg} />
+            </div>
+            <div className={style.monialInnerContent}>
+              <p className={style.monialInnerContentSub}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur nostrum assumenda dolor consectetur earum eveniet facilis sequi voluptates minima dicta tempora, accusantium inventore dolore perferendis. Qui laboriosam in aliquid.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi vero nihil eos tenetur optio eveniet ad sapiente vitae, quibusdam voluptate quidem enim delectus praesentium id iure magnam ut facere.
+              </p>
+              <p className={style.monialInnerContentInitials}>-Your Name</p>
+            </div>
+          </div>
+
         </div>
       </section>
     </>

@@ -112,8 +112,129 @@ button {
 }
 
 .footer {
-  background-color: rgb(83, 21, 21);
-  height: 50px;
+  padding: 100px 0 83px;
+  background: #131313;
+}
+
+.footerInnerTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 193px;
+}
+
+.footerInnerTopSup {
+  font-family: "Syne", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff9142;
+  margin-bottom: 23px;
+}
+
+.footerInnerTopMail {
+  color: #fff;
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 74px;
+}
+
+.footerNavImg {
+  width: 241px;
+  height: 42.416px;
+}
+
+.footerNavList {
+  display: flex;
+  gap: 105px;
+}
+
+.footerNavListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footerNavListItemStr,
+.footerNavListItemTel,
+.footerInnerCopyrightContent {
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footerNavListItemTel {
+  cursor: pointer;
+  position: relative;
+  transition: all 0.4s;
+}
+.footerNavListItemTel::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: -5px;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: all 0.4s;
+}
+.footerNavListItemTel:hover::before {
+  left: 0;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.footerNavListItemSocial {
+  display: flex;
+  gap: 8px;
+}
+
+.footerNavListItemSocialFb {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.footerNavListItemSocialFb:hover {
+  filter: drop-shadow(0 0 10px blue);
+  transition: all 0.4s;
+}
+
+.footerNavListItemSocialIns {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.footerNavListItemSocialIns:hover {
+  filter: drop-shadow(0 0 10px #ff9142);
+  transition: all 0.4s;
+}
+
+.footerInnerCopyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerInnerCopyrightline {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #949494;
+  margin-bottom: 36px;
 }
 
 .top {
@@ -440,4 +561,48 @@ button {
   color: #fff;
   line-height: 22px;
   letter-spacing: 0.25px;
+}
+
+.testimonial {
+  padding: 0 0 119px;
+}
+
+.monialInnerTop {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 44px;
+}
+
+.monialInnerTopVector {
+  position: absolute;
+  width: 517.142px;
+  height: 273.029px;
+  transform: rotate(-178.318deg);
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(100px);
+  top: -85%;
+  left: -45%;
+}
+
+.monialInnerTopTitle {
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.monialInnerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 879px;
+}
+
+.monialInnerContentInitials {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Syne", sans-serif;
 }/*# sourceMappingURL=index.module.css.map */

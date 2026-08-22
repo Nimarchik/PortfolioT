@@ -1,4 +1,130 @@
 .footer {
-  background-color: rgb(83, 21, 21);
-  height: 50px;
+  padding: 100px 0 83px;
+  background: $black;
+}
+
+.footerInnerTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 193px;
+}
+
+.footerInnerTopSup {
+  font-family: $fontSyne;
+  font-size: 24px;
+  font-weight: 700;
+  color: $orange;
+  margin-bottom: 23px;
+}
+
+.footerInnerTopMail {
+  color: $white;
+  text-align: center;
+  font-family: $fontSyne;
+  font-size: 64px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 74px;
+}
+
+.footerNavImg {
+  width: 241px;
+  height: 42.416px;
+}
+
+.footerNavList {
+  display: flex;
+  gap: 105px;
+}
+
+.footerNavListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footerNavListItemStr,
+.footerNavListItemTel,
+.footerInnerCopyrightContent {
+  @include sectionTitle;
+  font-size: 24px;
+}
+
+.footerNavListItemTel {
+  cursor: pointer;
+  position: relative;
+  transition: all 0.4s;
+
+  &::before {
+    position: absolute;
+    content: "";
+    right: 0;
+
+    bottom: -5px;
+    width: 0;
+    height: 1px;
+    background-color: $white;
+    transition: all 0.4s;
+  }
+
+  &:hover {
+    &::before {
+      left: 0;
+
+      width: 100%;
+      transition: all 0.4s;
+    }
+  }
+}
+
+.footerNavListItemSocial {
+  display: flex;
+  gap: 8px;
+}
+
+.footerNavListItemSocialFb {
+  cursor: pointer;
+  transition: all 0.4s;
+
+  &:hover {
+    filter: drop-shadow(0 0 10px blue);
+    transition: all 0.4s;
+  }
+}
+
+.footerNavListItemSocialIns {
+  cursor: pointer;
+  transition: all 0.4s;
+
+  &:hover {
+    filter: drop-shadow(0 0 10px $orange);
+    transition: all 0.4s;
+  }
+}
+
+.footerInnerCopyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerInnerCopyrightline {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #949494;
+  margin-bottom: 36px;
 }
