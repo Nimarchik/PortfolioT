@@ -605,4 +605,119 @@ button {
   font-size: 24px;
   font-weight: 700;
   font-family: "Syne", sans-serif;
+}
+
+.works {
+  padding: 138px 0 176px;
+}
+
+.worksHeader {
+  position: relative;
+}
+
+.worksVector {
+  position: absolute;
+  width: 517.142px;
+  height: 273.029px;
+  transform: rotate(-178.318deg);
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(100px);
+  top: -75%;
+  left: -45%;
+}
+
+.worksHeaderTitle {
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+
+.worksHeaderSub {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.worksLine {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #949494;
+  margin: 91px 0 101px;
+}
+
+.worksProject {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.worksProjectList {
+  display: flex;
+  gap: 30px;
+}
+
+.worksProjectListItem {
+  text-align: center;
+}
+
+.worksProjectListItemImg {
+  width: 100%;
+  margin-bottom: 32px;
+  border-radius: 30px;
+}
+
+.worksProjectListItemSub {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.625px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.worksProjectListItemTitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+  letter-spacing: -0.5px;
+}
+
+.worksProjectLink {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #fff;
+  padding: 25px 33px 25px 40px;
+  border-radius: 32px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.625px;
+  text-transform: uppercase;
+  background-color: #ff9142;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.4s;
+}
+.worksProjectLink:hover {
+  background-color: transparent;
+  color: #ff9142;
+  box-shadow: 0 0 15px #ff9142;
+}
+.worksProjectLink:hover .homeBtnArrow {
+  transform: translateX(100%);
+  transition: all 0.4s;
+}
+.worksProjectLink .homeBtnArrow {
+  transform: translateX(0);
+  transition: all 0.4s;
+}
+.worksProjectLink {
+  display: inline-flex;
+  margin: 0 auto;
+  background: transparent;
+  border-color: #ff9142;
 }/*# sourceMappingURL=index.module.css.map */

@@ -19,9 +19,9 @@ const Header = () => {
               <img src={logo} alt="brand Logo" />
             </Link>
             <ul className={style.navList}>
-              {['Home', 'About Me', 'My Works'].map((item, ind) => (
+              {['Home', 'About Me', 'Works'].map((item, ind) => (
                 <li className={style.navListItem} key={ind} >
-                  <Link to={`/${item}`}>{item}</Link>
+                  <Link to={`/${item}`}>{item == 'Works' ? 'My Works' : item}</Link>
                 </li>
               ))}
               <button className={style.navListButton}>contact</button>

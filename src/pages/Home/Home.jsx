@@ -37,7 +37,7 @@ const Home = () => {
               <div className={style.aboutInnerContentVector}></div>
               <h2 className={style.aboutInnerContentTitle}>Let’s get know about me closer</h2>
               <p className={style.aboutInnerContentSub}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolores. Et veritatis ad maiores, ea sequi sit blanditiis ab fugit quae. Dolore, accusantium voluptatum voluptates aut cum debitis sed cupiditate!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolores. Et veritatis ad maiores, ea sequi sit blanditiis ab fugit quae. Dolore, accusantium voluptatum voluptates aut cum debitis sed cupiditate!
               </p>
               <Link className={style.aboutInnerContentBtn}>Discover More About Me</Link>
             </div>
