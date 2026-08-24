@@ -1,0 +1,112 @@
+.aboutInners {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  margin-bottom: 101px;
+}
+
+.aboutInnersTitle {
+  width: 535px;
+  color: $white;
+  font-family: $fontSyne;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 84px; /* 105% */
+  letter-spacing: -2.501px;
+}
+
+.aboutInnersSup {
+  width: 495px;
+  padding: 18px 0;
+  color: $colorFonts;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 39px; /* 185.714% */
+  letter-spacing: -0.657px;
+}
+
+.aboutPict {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -28px;
+    border: 1px solid $orange;
+    border-radius: $borderRadius;
+    width: 55px;
+    height: 178px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    width: 178px;
+    height: 55px;
+    border: 1px solid $orange;
+    border-radius: $borderRadius;
+  }
+}
+
+.aboutPictImg {
+  display: flex; // delete after adding photo
+  align-items: center; // delete after adding photo
+  justify-content: center; // delete after adding photo
+  font-size: 32px; // delete after adding photo
+  background: black; // delete after adding photo
+  width: 361px;
+  height: 515px;
+  border-radius: 16px;
+}
+
+.aboutPictImg1 {
+  display: flex; // delete after adding photo
+  align-items: center; // delete after adding photo
+  justify-content: center; // delete after adding photo
+  font-size: 32px; // delete after adding photo
+  background: black; // delete after adding photo
+  width: 750px;
+  height: 515px;
+  border-radius: 16px;
+}
+
+.aboutFollow {
+}
+
+.aboutFollowTitle {
+  color: $white;
+  font-family: $fontSyne;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 79.993px; /* 166.652% */
+  letter-spacing: -0.5px;
+  margin-bottom: 25px;
+}
+
+.aboutFollowList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutFollowListItemLink {
+  color: $colorFonts;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.062px;
+  text-transform: uppercase;
+  transition: all 0.4s;
+
+  &:hover {
+    color: $white;
+    filter: drop-shadow(0 0 7px $colorFonts);
+    transition: all 0.4s;
+  }
+}

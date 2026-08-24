@@ -114,6 +114,7 @@ button {
 .footer {
   padding: 100px 0 83px;
   background: #131313;
+  box-shadow: 0 0 60px black;
 }
 
 .footerInnerTop {
@@ -720,4 +721,111 @@ button {
   margin: 0 auto;
   background: transparent;
   border-color: #ff9142;
+}
+
+.aboutInners {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  margin-bottom: 101px;
+}
+
+.aboutInnersTitle {
+  width: 535px;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 84px; /* 105% */
+  letter-spacing: -2.501px;
+}
+
+.aboutInnersSup {
+  width: 495px;
+  padding: 18px 0;
+  color: #949494;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 39px; /* 185.714% */
+  letter-spacing: -0.657px;
+}
+
+.aboutPict {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+.aboutPict::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -28px;
+  border: 1px solid #ff9142;
+  border-radius: 30px;
+  width: 55px;
+  height: 178px;
+}
+.aboutPict::before {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  right: 0;
+  width: 178px;
+  height: 55px;
+  border: 1px solid #ff9142;
+  border-radius: 30px;
+}
+
+.aboutPictImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  background: black;
+  width: 361px;
+  height: 515px;
+  border-radius: 16px;
+}
+
+.aboutPictImg1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  background: black;
+  width: 750px;
+  height: 515px;
+  border-radius: 16px;
+}
+
+.aboutFollowTitle {
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 79.993px; /* 166.652% */
+  letter-spacing: -0.5px;
+  margin-bottom: 25px;
+}
+
+.aboutFollowList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutFollowListItemLink {
+  color: #949494;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.062px;
+  text-transform: uppercase;
+  transition: all 0.4s;
+}
+.aboutFollowListItemLink:hover {
+  color: #fff;
+  filter: drop-shadow(0 0 7px #949494);
+  transition: all 0.4s;
 }/*# sourceMappingURL=index.module.css.map */

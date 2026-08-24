@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import style from '../../assets/styles/index.module.css'
 
 
@@ -8,7 +7,6 @@ import logo from '../../assets/images/Brand-logo.svg'
 
 
 const Header = () => {
-  const [click, setClick] = useState(false)
 
   return (
     <>
@@ -19,9 +17,9 @@ const Header = () => {
               <img src={logo} alt="brand Logo" />
             </Link>
             <ul className={style.navList}>
-              {['Home', 'About Me', 'Works'].map((item, ind) => (
+              {['Home', 'About', 'Works'].map((item, ind) => (
                 <li className={style.navListItem} key={ind} >
-                  <Link to={`/${item}`}>{item == 'Works' ? 'My Works' : item}</Link>
+                  <Link to={`/${item}`}>{item === 'Works' || item === 'About' ? item === 'About' ? item + ' ' + 'Me' : item === 'Works' ? 'My' + ' ' + item : item : item}</Link>
                 </li>
               ))}
               <button className={style.navListButton}>contact</button>
