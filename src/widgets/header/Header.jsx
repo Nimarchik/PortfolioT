@@ -19,10 +19,10 @@ const Header = () => {
             <ul className={style.navList}>
               {['Home', 'About', 'Works'].map((item, ind) => (
                 <li className={style.navListItem} key={ind} >
-                  <Link to={`/${item}`}>{item === 'Works' || item === 'About' ? item === 'About' ? item + ' ' + 'Me' : item === 'Works' ? 'My' + ' ' + item : item : item}</Link>
+                  <Link to={`/${item}`}>{item === "About" ? "About Me" : item === "Works" ? "My Works" : item}</Link>
                 </li>
               ))}
-              <button className={style.navListButton}>contact</button>
+              <Link to={`/Contact`} className={style.navListButton}>contact</Link>
             </ul>
           </nav>
         </div>
