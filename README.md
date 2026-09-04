@@ -1,96 +1,244 @@
 # Modern Portfolio — React & Vite Template
 
-Build your professional portfolio without starting from scratch.
+A modern, responsive portfolio website template built with **React** and **Vite**.
 
-Modern Portfolio is a clean, responsive React template designed for developers, designers, freelancers and creatives.
+Designed for developers, designers, freelancers, and creatives who want a clean and professional portfolio website that is easy to customize.
 
-## 🚀 What's included
+## ✨ Features
 
-- Complete React source code
-- Vite setup
-- SCSS styling
-- Multiple pages
-- Responsive design
-- Smooth animations
-- Reusable components
-- Project pages
-- Blog pages
-- Contact page
-- 404 page
-- Easy customization
-- Detailed documentation
+* ⚛️ Built with React
+* ⚡ Powered by Vite
+* 📱 Fully responsive design
+* 🎨 Modern and clean UI
+* 🧩 Component-based architecture
+* 📄 Multiple pages
+* 🔧 Easy to customize
+* 🚀 Fast development and production build
+* 🌐 Ready for deployment
+* 📦 Clean and organized project structure
 
-## 🧩 Technologies
+## 🛠️ Technologies
 
-- React
-- Vite
-- SCSS
-- React Router
-- Framer Motion
+* React
+* Vite
+* React Router
+* SCSS / CSS
+* JavaScript (ES6+)
 
-## 📱 Responsive
-
-Fully optimized for:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile
-
-## 📦 You will receive
+## 📁 Project Structure
 
 ```text
-Modern-Portfolio/
-├── src/
-├── public/
-├── package.json
-├── vite.config.js
-└── README.md
+src/
+├── assets/
+│   ├── images/
+│   └── styles/
+│
+├── pages/
+│   ├── Home/
+│   ├── About/
+│   ├── Works/
+│   └── Contact/
+│
+└── widgets/
+    ├── Header/
+    ├── Footer/
+    ├── ProjectDetail/
+    └── ...
 ```
 
-## ⚡ Quick Start
+### `assets/`
+
+Contains static resources used throughout the website:
+
+* Images
+* Global styles
+* Other visual assets
+
+### `pages/`
+
+Contains the main pages of the website.
+
+Each page is organized into its own folder to keep the project structure clean and easy to maintain.
+
+### `widgets/`
+
+Contains reusable UI components and larger interface sections.
+
+Examples include:
+
+* Header
+* Footer
+* Navigation
+* Project cards
+* Project details
+* Other reusable sections
+
+## 🚀 Installation
+
+Make sure you have **Node.js** installed.
+
+Clone or download the project and install dependencies:
 
 ```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-That's it.
+The website will be available at:
 
-## 🎯 Perfect for
+```text
+http://localhost:5173
+```
 
-- Developers
-- Designers
-- Freelancers
-- Students
-- Creatives
-- Personal portfolios
-- Agency portfolios
+## 📦 Production Build
 
-## ⚠️ Please note
+To create a production build:
 
-This product is a frontend React template.
+```bash
+npm run build
+```
 
-Backend functionality, authentication, databases and payment processing are not included.
+The optimized files will be generated inside the `dist/` directory.
 
-## 🎨 Design Credits
+To preview the production build locally:
 
-The template is based on an adapted version of the following Figma design:
+```bash
+npm run preview
+```
 
-Free Portfolio Landing Page Website
+## 🎨 Customization
 
-Original author: **Shazzade**
+You can easily customize the template to match your personal brand.
 
-Original Figma:
+### Content
 
-https://www.figma.com/community/file/1316473715005604240/
+Edit the content inside the corresponding files in:
 
-The original design is licensed under CC BY 4.0.
+```text
+src/pages/
+src/widgets/
+```
+
+### Images
+
+Replace images and other assets inside:
+
+```text
+src/assets/
+src/pages/Home/images
+src/pages/About/images
+src/pages/Works/images
+src/pages/Contact/images
+```
+
+### Styles
+
+Global and component-specific styles can be found inside the project stylesheets.
+
+You can modify:
+
+* Colors
+* Typography
+* Spacing
+* Animations
+* Layout
+* Responsive breakpoints
+
+## 📱 Responsive Design
+
+The template is designed to work across different screen sizes:
+
+* Desktop
+
+## 🌐 Deployment
+
+The project can be deployed to most modern hosting platforms.
+
+Recommended platforms:
+
+* Netlify
+* GitHub Pages
+
+Before deployment, create the production build:
+
+```bash
+npm run build
+```
+
+Then deploy the contents of:
+
+```text
+dist/
+```
+
+## 📄 Pages
+
+The template includes the following pages:
+
+* Home
+* About
+* Works / Projects
+* Contact
+* Project Details
+
+You can add, remove, or rename pages according to your needs.
+
+## 🔗 Routing
+
+The template uses **React Router** for navigation.
+
+Routes can be configured in the application's router configuration.
+
+Example:
+
+```text
+/          → Home
+/about     → About
+/works     → Works
+/contact   → Contact
+/works/:id → Project Details
+```
+
+## 📌 Requirements
+
+* Node.js 20+
+* npm 10+
+
+## 📜 License & Attribution
+
+The original Figma design used as the visual basis for this template is distributed under the **CC BY 4.0** license.
+
+The original design is **not included** with this product.
+
+The React implementation, source code, structure, and custom development included in this package are provided as a separate implementation.
+
+Attribution to the original design is required under the CC BY 4.0 license.
+
+Creative Commons Attribution 4.0 International:
 
 https://creativecommons.org/licenses/by/4.0/
 
-## 📄 License
+## 💬 Support
 
-Please read the included LICENSE file before using the template.
+If you have any questions about installation or customization, please contact the seller through the marketplace where this template was purchased.
 
-The original design remains subject to its original license. The React implementation and original code are distributed according to the license included with this product.
+## ❤️ Credits
+
+Design inspiration:
+
+**Original Figma Design:**
+[[Add original Figma design link here](https://www.figma.com/community/file/1316473715005604240/)]
+
+**Original Designer:**
+[Shazzade]
+
+This attribution is provided in accordance with the CC BY 4.0 license.
+
+---
+
+Made with ❤️ using React + Vite.
