@@ -231,10 +231,10 @@ If you have any questions about installation or customization, please contact th
 Design inspiration:
 
 **Original Figma Design:**
-[[Add original Figma design link here](https://www.figma.com/community/file/1316473715005604240/)]
+(https://www.figma.com/community/file/1316473715005604240/)
 
 **Original Designer:**
-[Shazzade]
+**Shazzade**
 
 This attribution is provided in accordance with the CC BY 4.0 license.
 
