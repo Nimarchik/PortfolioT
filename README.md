@@ -79,7 +79,7 @@ The template is based on an adapted version of the following Figma design:
 
 Free Portfolio Landing Page Website
 
-Original author: **[AUTHOR NAME]**
+Original author: **Shazzade**
 
 Original Figma:
 
