@@ -8,7 +8,6 @@ Designed for developers, designers, freelancers, and creatives who want a clean 
 
 * ⚛️ Built with React
 * ⚡ Powered by Vite
-* 📱 Fully responsive design
 * 🎨 Modern and clean UI
 * 🧩 Component-based architecture
 * 📄 Multiple pages
