@@ -1,0 +1,129 @@
+.detail {
+  padding: 135px 0 0;
+}
+
+.detaileContent {
+  padding: 0 0 193px;
+}
+
+.detaileContentImg {
+  border-radius: 16px;
+  margin-bottom: 70px;
+}
+
+.detaileContentText {
+  text-align: center;
+  width: 750px;
+  margin: 0 auto 88px;
+}
+
+.detaileContentTextTitle {
+  color: $white;
+  text-align: left;
+  font-family: $fontSyne;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.detaileContentTextSub {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: left;
+  white-space: normal;
+  font-size: 16px;
+}
+
+.detaileContentPic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.detaileContentPicImg {
+  border-radius: 16px;
+}
+
+.detaileContentNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.detaileContentNavLinkPrev,
+.detaileContentNavLinkNext {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  fill: $colorFonts;
+  transform: translateX(0px);
+  transition: all 0.4s;
+}
+
+.detaileContentNavLinkPrevSvg {
+  margin-top: 10px;
+}
+
+.detaileContentNavLinkNextSvg {
+  margin-bottom: 10px;
+}
+
+.detaileContentNavLinkPrev {
+  &:hover {
+    .detaileContentNavLinkPrevSvg {
+      fill: $white;
+      transform: translateX(-10px);
+      transition: all 0.4s;
+    }
+  }
+}
+
+.detaileContentNavLinkNext {
+  &:hover {
+    .detaileContentNavLinkNextSvg {
+      fill: $white;
+      transform: translateX(10px);
+      transition: all 0.4s;
+    }
+  }
+}
+
+.detailInnerOther {
+  padding: 0 0 50px;
+}
+
+.detailInnerOtherTitle {
+  @include sectionTitle;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.detailInnerOtherList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailInnerOtherListItemImg {
+  border-radius: 16px;
+  margin-bottom: 27px;
+}
+
+.detailInnerOtherListItemTitle {
+  font-size: 24px;
+  color: $white;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 120%; /* 28.8px */
+  text-transform: capitalize;
+}
+
+.detailInnerOtherListItemSub {
+  font-size: 18px;
+}

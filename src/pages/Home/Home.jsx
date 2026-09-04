@@ -6,6 +6,7 @@ import img1 from './images/projectImages/Img1.jpg'
 import img2 from './images/projectImages/Img2.jpg'
 import img3 from './images/projectImages/Img3.jpg'
 import monial from './images/mou.svg'
+import ProjectDetail from '../../widgets/ProjectDetail/ProjectDetail';
 
 const Home = () => {
   return (
@@ -75,97 +76,105 @@ const Home = () => {
             <div className={style.projectsInnerGroup}>
               <ul className={style.projectsInnerGroupList}>
                 <li className={style.projectsInnerGroupListItem}>
-                  <img src={img} alt="Image project" className={style.projectsInnerGroupListItemImg} />
-                  <h4 className={style.projectsInnerGroupListItemTitle}>
-                    Brand Journey Improvements
-                    <span className={style.projectsInnerGroupListItemTitleSpan}></span>
-                  </h4>
+                  <Link to={`/ProjectDetail`}>
+                    <img src={img} alt="Image project" className={style.projectsInnerGroupListItemImg} />
+                    <h4 className={style.projectsInnerGroupListItemTitle}>
+                      Brand Journey Improvements
+                      <span className={style.projectsInnerGroupListItemTitleSpan}></span>
+                    </h4>
 
-                  <ul className={style.projectsInnerGroupListItemEnum}>
-                    <li className={style.projectsInnerGroupListItemEnumItem}>
-                      <p className={style.projectsInnerGroupListItemEnumItemName}>Client:</p>
-                      <p className={style.projectsInnerGroupListItemEnumItemAns}>Organc</p>
-                    </li>
-                    <li className={style.projectsInnerGroupListItemEnumItem}>
-                      <p className={style.projectsInnerGroupListItemEnumItemName}>Work:</p>
-                      <div className={style.projectsInnerGroupListItemEnumItemWork}>
-                        <p className={style.projectsInnerGroupListItemEnumItemAns}>Branding</p>
-                        <p className={style.projectsInnerGroupListItemEnumItemAns}>Logo design</p>
-                      </div>
-                    </li>
-                  </ul>
+                    <ul className={style.projectsInnerGroupListItemEnum}>
+                      <li className={style.projectsInnerGroupListItemEnumItem}>
+                        <p className={style.projectsInnerGroupListItemEnumItemName}>Client:</p>
+                        <p className={style.projectsInnerGroupListItemEnumItemAns}>Organc</p>
+                      </li>
+                      <li className={style.projectsInnerGroupListItemEnumItem}>
+                        <p className={style.projectsInnerGroupListItemEnumItemName}>Work:</p>
+                        <div className={style.projectsInnerGroupListItemEnumItemWork}>
+                          <p className={style.projectsInnerGroupListItemEnumItemAns}>Branding</p>
+                          <p className={style.projectsInnerGroupListItemEnumItemAns}>Logo design</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </Link>
                 </li>
 
                 <li className={style.projectsInnerGroupListItem}>
-                  <img src={img1} alt="Image project" className={style.projectsInnerGroupListItemImg} />
-                  <h4 className={style.projectsInnerGroupListItemTitle}>
-                    Brand Grouping
-                    <span className={style.projectsInnerGroupListItemTitleSpan}></span>
-                  </h4>
+                  <Link to={`/ProjectDetail`}>
+                    <img src={img1} alt="Image project" className={style.projectsInnerGroupListItemImg} />
+                    <h4 className={style.projectsInnerGroupListItemTitle}>
+                      Brand Grouping
+                      <span className={style.projectsInnerGroupListItemTitleSpan}></span>
+                    </h4>
 
-                  <ul className={style.projectsInnerGroupListItemEnum}>
-                    <li className={style.projectsInnerGroupListItemEnumItem}>
-                      <p className={style.projectsInnerGroupListItemEnumItemName}>Client:</p>
-                      <p className={style.projectsInnerGroupListItemEnumItemAns}>FR</p>
-                    </li>
-                    <li className={style.projectsInnerGroupListItemEnumItem}>
-                      <p className={style.projectsInnerGroupListItemEnumItemName}>Work:</p>
-                      <div className={style.projectsInnerGroupListItemEnumItemWork}>
-                        <p className={style.projectsInnerGroupListItemEnumItemAns}>Branding</p>
-                        <p className={style.projectsInnerGroupListItemEnumItemAns}>Logo design</p>
-                      </div>
-                    </li>
-                  </ul>
+                    <ul className={style.projectsInnerGroupListItemEnum}>
+                      <li className={style.projectsInnerGroupListItemEnumItem}>
+                        <p className={style.projectsInnerGroupListItemEnumItemName}>Client:</p>
+                        <p className={style.projectsInnerGroupListItemEnumItemAns}>FR</p>
+                      </li>
+                      <li className={style.projectsInnerGroupListItemEnumItem}>
+                        <p className={style.projectsInnerGroupListItemEnumItemName}>Work:</p>
+                        <div className={style.projectsInnerGroupListItemEnumItemWork}>
+                          <p className={style.projectsInnerGroupListItemEnumItemAns}>Branding</p>
+                          <p className={style.projectsInnerGroupListItemEnumItemAns}>Logo design</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </Link>
                 </li>
 
 
                 <li className={style.projectsInnerGroupListItem}>
-                  <img src={img2} alt="Image project" className={style.projectsInnerGroupListItemImg} />
-                  <h4 className={style.projectsInnerGroupListItemTitle}>
-                    NFT Glimps
-                    <span className={style.projectsInnerGroupListItemTitleSpan}></span>
-                  </h4>
+                  <Link to={`/ProjectDetail`}>
+                    <img src={img2} alt="Image project" className={style.projectsInnerGroupListItemImg} />
+                    <h4 className={style.projectsInnerGroupListItemTitle}>
+                      NFT Glimps
+                      <span className={style.projectsInnerGroupListItemTitleSpan}></span>
+                    </h4>
 
-                  <ul className={style.projectsInnerGroupListItemEnum}>
-                    <li className={style.projectsInnerGroupListItemEnumItem}>
-                      <p className={style.projectsInnerGroupListItemEnumItemName}>Client:</p>
-                      <p className={style.projectsInnerGroupListItemEnumItemAns}>Rumanda</p>
-                    </li>
-                    <li className={style.projectsInnerGroupListItemEnumItem}>
-                      <p className={style.projectsInnerGroupListItemEnumItemName}>Work:</p>
-                      <div className={style.projectsInnerGroupListItemEnumItemWork}>
-                        <p className={style.projectsInnerGroupListItemEnumItemAns}>NFT Design</p>
+                    <ul className={style.projectsInnerGroupListItemEnum}>
+                      <li className={style.projectsInnerGroupListItemEnumItem}>
+                        <p className={style.projectsInnerGroupListItemEnumItemName}>Client:</p>
+                        <p className={style.projectsInnerGroupListItemEnumItemAns}>Rumanda</p>
+                      </li>
+                      <li className={style.projectsInnerGroupListItemEnumItem}>
+                        <p className={style.projectsInnerGroupListItemEnumItemName}>Work:</p>
+                        <div className={style.projectsInnerGroupListItemEnumItemWork}>
+                          <p className={style.projectsInnerGroupListItemEnumItemAns}>NFT Design</p>
 
-                      </div>
-                    </li>
-                  </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </Link>
                 </li>
 
                 <li className={style.projectsInnerGroupListItem}>
-                  <img src={img3} alt="Image project" className={style.projectsInnerGroupListItemImg} />
-                  <h4 className={style.projectsInnerGroupListItemTitle}>
-                    Brand Suggestions
-                    <span className={style.projectsInnerGroupListItemTitleSpan}></span>
-                  </h4>
+                  <Link to={`/ProjectDetail`}>
+                    <img src={img3} alt="Image project" className={style.projectsInnerGroupListItemImg} />
+                    <h4 className={style.projectsInnerGroupListItemTitle}>
+                      Brand Suggestions
+                      <span className={style.projectsInnerGroupListItemTitleSpan}></span>
+                    </h4>
 
-                  <ul className={style.projectsInnerGroupListItemEnum}>
-                    <li className={style.projectsInnerGroupListItemEnumItem}>
-                      <p className={style.projectsInnerGroupListItemEnumItemName}>Client:</p>
-                      <p className={style.projectsInnerGroupListItemEnumItemAns}>T3d</p>
-                    </li>
-                    <li className={style.projectsInnerGroupListItemEnumItem}>
-                      <p className={style.projectsInnerGroupListItemEnumItemName}>Work:</p>
-                      <div className={style.projectsInnerGroupListItemEnumItemWork}>
-                        <p className={style.projectsInnerGroupListItemEnumItemAns}>NFT logo</p>
-                      </div>
-                    </li>
-                  </ul>
+                    <ul className={style.projectsInnerGroupListItemEnum}>
+                      <li className={style.projectsInnerGroupListItemEnumItem}>
+                        <p className={style.projectsInnerGroupListItemEnumItemName}>Client:</p>
+                        <p className={style.projectsInnerGroupListItemEnumItemAns}>T3d</p>
+                      </li>
+                      <li className={style.projectsInnerGroupListItemEnumItem}>
+                        <p className={style.projectsInnerGroupListItemEnumItemName}>Work:</p>
+                        <div className={style.projectsInnerGroupListItemEnumItemWork}>
+                          <p className={style.projectsInnerGroupListItemEnumItemAns}>NFT logo</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-      </section>
+        </div >
+      </section >
 
       <section className={style.testimonial}>
         <div className={style.container}>

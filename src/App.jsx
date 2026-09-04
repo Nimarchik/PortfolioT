@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Outlet, useLocation } from 'react-router-dom'
+import { Outlet, useLocation, ScrollRestoration } from 'react-router-dom'
 import { animated, useTransition } from '@react-spring/web';
 
 
@@ -28,6 +28,7 @@ function App() {
 
   return (
     <>
+      <ScrollRestoration />
       <div className={style.wrapper}>
         <Header />
         <div className={style.main}>
