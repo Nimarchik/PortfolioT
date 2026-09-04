@@ -94,6 +94,38 @@ The website will be available at:
 http://localhost:5173
 ```
 
+🔌 Backend
+
+This template does not include a backend.
+
+The project is a frontend-only React template. Backend functionality, database integration, authentication, APIs, form processing, and server-side logic are not included.
+
+If you need backend functionality, it must be developed and connected separately.
+
+You can integrate the template with any backend technology or service, for example:
+
+Node.js / Express
+PHP
+Laravel
+Supabase
+Firebase
+REST API
+GraphQL
+Other custom backend solutions
+
+The existing frontend can be connected to your backend through API requests or other integration methods.
+
+What is not included
+❌ Backend
+❌ Database
+❌ User authentication
+❌ Admin panel
+❌ Server-side logic
+❌ API
+❌ Form submission backend
+
+The template provides the frontend UI and structure only.
+
 ## 📦 Production Build
 
 To create a production build:
