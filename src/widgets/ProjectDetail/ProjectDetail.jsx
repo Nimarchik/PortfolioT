@@ -82,21 +82,21 @@ const ProjectDetail = () => {
               <h3 className={style.detailInnerOtherTitle}>Other Projects</h3>
               <ul className={style.detailInnerOtherList}>
                 <li className={style.detailInnerOtherListItem}>
-                  <Link to={`/Home`}>
+                  <Link to={`/`}>
                     <img src={logo1} alt="Logo Project 1" className={style.detailInnerOtherListItemImg} />
                     <h5 className={style.detailInnerOtherListItemTitle}>Logo Project 1</h5>
                     <p className={style.detailInnerOtherListItemSub}>Branding</p>
                   </Link>
                 </li>
                 <li className={style.detailInnerOtherListItem}>
-                  <Link to={`/Home`}>
+                  <Link to={`/`}>
                     <img src={logo2} alt="Logo Project 2" className={style.detailInnerOtherListItemImg} />
                     <h5 className={style.detailInnerOtherListItemTitle}>Logo Project 2</h5>
                     <p className={style.detailInnerOtherListItemSub}>Branding</p>
                   </Link>
                 </li>
                 <li className={style.detailInnerOtherListItem}>
-                  <Link to={`/Home`}>
+                  <Link to={`/`}>
                     <img src={logo3} alt="Logo Project 3" className={style.detailInnerOtherListItemImg} />
                     <h5 className={style.detailInnerOtherListItemTitle}>Logo Project 3</h5>
                     <p className={style.detailInnerOtherListItemSub}>Branding</p>

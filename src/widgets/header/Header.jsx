@@ -13,13 +13,13 @@ const Header = () => {
       <header className={style.header}>
         <div className={style.container}>
           <nav className={style.nav}>
-            <Link to={`/Home`}>
+            <Link to={`/`}>
               <img src={logo} alt="brand Logo" />
             </Link>
             <ul className={style.navList}>
-              {['Home', 'About', 'Works'].map((item, ind) => (
+              {['/', 'About', 'Works'].map((item, ind) => (
                 <li className={style.navListItem} key={ind} >
-                  <Link to={`/${item}`}>{item === "About" ? "About Me" : item === "Works" ? "My Works" : item}</Link>
+                  <Link to={`/${item}`}>{item === "About" ? "About Me" : item === "Works" ? "My Works" : item === '/' ? 'Home' : item}</Link>
                 </li>
               ))}
               <Link to={`/Contact`} className={style.navListButton}>contact</Link>

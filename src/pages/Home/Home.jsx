@@ -20,7 +20,7 @@ const Home = () => {
               </h1>
               <div className={style.homeBoxVector}></div>
             </div>
-            <Link className={style.homeBtn}>
+            <Link to={`/Works`} className={style.homeBtn}>
               Explore works
               <svg xmlns="http://www.w3.org/2000/svg" className={style.homeBtnArrow} width="18" height="12" viewBox="0 0 18 12" fill="white">
                 <path d="M1 5.5H17" stroke="white" strokeWidth="2" stroke-linecap="round" strokeLinejoin="round" />
@@ -40,7 +40,7 @@ const Home = () => {
               <p className={style.aboutInnerContentSub}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolores. Et veritatis ad maiores, ea sequi sit blanditiis ab fugit quae. Dolore, accusantium voluptatum voluptates aut cum debitis sed cupiditate!
               </p>
-              <Link className={style.aboutInnerContentBtn}>Discover More About Me</Link>
+              <Link to={`/About`} className={style.aboutInnerContentBtn}>Discover More About Me</Link>
             </div>
             <div className={style.aboutInnerUser}>
               <div className={style.aboutInnerUserTxt}>
@@ -63,7 +63,7 @@ const Home = () => {
                 My Projects Highlight
                 <div className={style.projectsInnerContentTitleVector}></div>
               </h3>
-              <Link className={style.projectsInnerContentBtn}>Explore More
+              <Link to={`/Works`} className={style.projectsInnerContentBtn}>Explore More
                 <svg className={style.homeBtnArrow} xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
                   <path d="M1 5.5H17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   <path d="M12 1L17 6L12 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
