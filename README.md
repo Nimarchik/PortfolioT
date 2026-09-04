@@ -1,16 +1,96 @@
-# React + Vite
+# Modern Portfolio — React & Vite Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Build your professional portfolio without starting from scratch.
 
-Currently, two official plugins are available:
+Modern Portfolio is a clean, responsive React template designed for developers, designers, freelancers and creatives.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 What's included
 
-## React Compiler
+- Complete React source code
+- Vite setup
+- SCSS styling
+- Multiple pages
+- Responsive design
+- Smooth animations
+- Reusable components
+- Project pages
+- Blog pages
+- Contact page
+- 404 page
+- Easy customization
+- Detailed documentation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Technologies
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- SCSS
+- React Router
+- Framer Motion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📱 Responsive
+
+Fully optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+## 📦 You will receive
+
+```text
+Modern-Portfolio/
+├── src/
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚡ Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+That's it.
+
+## 🎯 Perfect for
+
+- Developers
+- Designers
+- Freelancers
+- Students
+- Creatives
+- Personal portfolios
+- Agency portfolios
+
+## ⚠️ Please note
+
+This product is a frontend React template.
+
+Backend functionality, authentication, databases and payment processing are not included.
+
+## 🎨 Design Credits
+
+The template is based on an adapted version of the following Figma design:
+
+Free Portfolio Landing Page Website
+
+Original author: **[AUTHOR NAME]**
+
+Original Figma:
+
+https://www.figma.com/community/file/1316473715005604240/
+
+The original design is licensed under CC BY 4.0.
+
+https://creativecommons.org/licenses/by/4.0/
+
+## 📄 License
+
+Please read the included LICENSE file before using the template.
+
+The original design remains subject to its original license. The React implementation and original code are distributed according to the license included with this product.
